@@ -1,7 +1,7 @@
 const button = document.getElementById ('botao');
 const resultadoReal = Math.floor(Math.random()*50) + 1;
 
-    const button = button.addEventListener('click', function(){
+    button.addEventListener('click', function(){
 
         let palpite;
 
@@ -19,7 +19,7 @@ const resultadoReal = Math.floor(Math.random()*50) + 1;
 
         } while (resultadoReal != numero);
 
-        alert("Parábens, você acertou! E o numero secreto é ("+resultadoReal+")!");
+        alert("Parábens, você acertou! E o numero secreto é "+resultadoReal+"!");
 
     });
 
